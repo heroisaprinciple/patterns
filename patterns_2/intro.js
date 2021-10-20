@@ -73,11 +73,7 @@ class Engineer extends Employee {
     /* get get_info() {
          return this.getPersonal_info();
      }
-     set set_info(value) {
-         //value = value instanceof PersonalInfo ? value :  null;
-         if (value instanceof PersonalInfo) {
-             this.setPersonal_info(value);
-         }
+    
      }*/
     calculate_taxes() {
         return 12.3; //any float number
@@ -102,12 +98,6 @@ class PersonalInfo {
         this.rank = rank;
         this.salary = salary;
     }
-    /*get get_id(){ ////adding getters and setters (@dataclass is absent in js)
-        return this.id;
-    }
-    set set_id(val) {
-        return val;
-    }*/
 }
 let p_info = new PersonalInfo();
 

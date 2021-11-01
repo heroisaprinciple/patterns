@@ -73,11 +73,7 @@ class Engineer extends Employee {
     /* get get_info() {
          return this.getPersonal_info();
      }
-     set set_info(value) {
-         //value = value instanceof PersonalInfo ? value :  null;
-         if (value instanceof PersonalInfo) {
-             this.setPersonal_info(value);
-         }
+    
      }*/
     calculate_taxes() {
         return 12.3; //any float number
@@ -102,12 +98,6 @@ class PersonalInfo {
         this.rank = rank;
         this.salary = salary;
     }
-    /*get get_id(){ ////adding getters and setters (@dataclass is absent in js)
-        return this.id;
-    }
-    set set_id(val) {
-        return val;
-    }*/
 }
 let p_info = new PersonalInfo();
 
@@ -223,7 +213,7 @@ let personal_info = new PersonalInfo(1, 'Sherlock', '221b Baker Street', '+75...
 engineer.setPersonal_info(personal_info);
 // project.add_developer(engineer);
 engineer.assign(project)
-console.log(engineer.getPersonal_info()); //error
+console.log(engineer.getPersonal_info()); 
 let second_engineer = new Engineer(2, 'Irene', '...London', '+71...', 'adler@gmail.com', 'dominatrix', 'engineer', 900);
 project.add_developer(second_engineer);
 let task1 = new Task(1, 'Think', '24.05.2022', '', 'Done', 'Do');

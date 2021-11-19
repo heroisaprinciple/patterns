@@ -120,7 +120,7 @@ let checking = new Checking();
 let savings = new Savings();
 
 let proto = new Customer();
-let customer_prototype = new CustomerPrototype();
+let customer_prototype = new CustomerPrototype(proto);
 let customer = customer_prototype.clone();
 
 

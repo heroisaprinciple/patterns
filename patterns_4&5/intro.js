@@ -410,7 +410,7 @@ class SeniorSolutionArchitect extends TopManagement {
     }
     createProject(web_id, webapp_name) {
         // return super.createProject(director = new Director());
-        return super.createProject(new WebApp(web_id, webapp_name));
+        return super.attach_project(new WebApp(web_id, webapp_name));
     }
 }
 

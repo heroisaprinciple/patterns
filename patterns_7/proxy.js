@@ -14,7 +14,7 @@ class ATMController {
         return balance;
     }
     handleLogin(account_id) {
-        if (account_id === new AccountDB().logIn()) { // TODO here: if account_id === AccountDB object.login()
+        if (account_id === new AccountDB().logIn()) {
            return true;
         }
         else { return false; }

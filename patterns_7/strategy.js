@@ -65,7 +65,7 @@ class KnightMove extends MoveRule {
         console.log(this.positions);
     }
 }
-
+//
 //strategy 2
 class BishopMove extends MoveRule {
     positions = [];

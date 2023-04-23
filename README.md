@@ -1,1 +1,1 @@
-A series of labs in University.
+A series of labs at University.

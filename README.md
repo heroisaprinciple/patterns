@@ -1,5 +1,2 @@
 # patterns
-doing 
-rab 
-stuff
-(js)
+A series of labs in University.
